@@ -1,0 +1,45 @@
+.slika {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -2;
+}
+.logo {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+}
+.ppp {
+  position: absolute;
+  margin-left: 200px;
+  list-style-type: none;
+  display: flex;
+  
+}
+.vvv{
+  text-decoration: none;
+  color: white;
+
+}
+.text{
+  z-index: 2;
+  font-size: 100px;
+  color: rgb(216, 221, 226);
+}
+.textic{
+  position: absolute;
+  left: 30%;
+  top: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+button{
+  font-size: 25px;
+  background-color: rgb(198, 100, 100);
+  border-radius: 35%;
+  width: 270px;
+  height: 60px;
+  border: none;
+}
