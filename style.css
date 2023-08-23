@@ -1,45 +1,65 @@
-.slika {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: -2;
-}
-.logo {
-  width: 200px;
-  height: 100px;
-  position: absolute;
-}
-.ppp {
-  position: absolute;
-  margin-left: 200px;
-  list-style-type: none;
+.navbar {
   display: flex;
-  
+  justify-content: end;
+  box-shadow: 0px 5px 10px lightgray;
 }
-.vvv{
-  text-decoration: none;
+button {
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 30px;
   color: white;
-
+  background-color: rgb(101, 94, 238);
+  margin-right: 50px;
+}
+.jedan {
+  margin-top: 10px;
+  margin-right: 60px;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: gray;
 }
 .text{
-  z-index: 2;
-  font-size: 100px;
-  color: rgb(216, 221, 226);
+  margin-right: 360px;
+  margin-top: -3px;
+  font-size: 40px;
+  color: rgb(129, 129, 237);
 }
-.textic{
+.slika{
+  margin: 100px;
+}
+.desni{
   position: absolute;
-  left: 30%;
-  top: 240px;
+  margin-left: 38%;
+  margin-top: -30%;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  row-gap: 25px;
+  color: gray;
 }
-button{
-  font-size: 25px;
-  background-color: rgb(198, 100, 100);
-  border-radius: 35%;
-  width: 270px;
+.vrh{
+  position: absolute;
+  margin-left: 38%;
+  margin-top: -36%;
+  color: rgb(127, 127, 243);
+}
+.kraj{
+  width: 100%;
   height: 60px;
-  border: none;
+  background-color: rgb(206, 203, 203);
+  display: flex;
+  align-items: center;
+}
+.paragraf{
+  margin-left: 25px;
+}
+.ikonice{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 20px;
+  margin-top: -35px;
+  gap: 12px;
 }
