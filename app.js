@@ -557,3 +557,43 @@
 
 // ---------------------------------------------------
 
+// let broj;
+// do {
+//     broj = parseInt(prompt("napisi broj"));
+//     if (broj>0){
+//         console.log(broj*broj);
+//     }
+// }
+// while(broj>=0);
+
+// ----------------------------------------------------
+
+
+// let n;
+// let output = "";
+// for (let i = 0; i < 100; i++){
+//     n = parseInt(prompt("napisi broj"));
+//     if (n === 0) break;
+//     output += `${n},`;
+// }
+// console.log(output);
+
+// ----------------------------------------------
+
+// let i=1;
+
+// for (let i=1; i<500; i++)
+// if (i % 3 === 0 && i % 4 === 0 && i % 5 === 0 && i % 7 === 0){
+//     console.log(i);
+//     break
+// }
+
+for (let i = 1; i <=100; i++){
+    let j = 2
+    for (; j <= i; j++){
+        if (i % j === 0) break;
+    }
+    if (i === j){
+        console.log(i);
+    }
+}
