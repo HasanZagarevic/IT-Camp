@@ -588,12 +588,106 @@
 //     break
 // }
 
-for (let i = 1; i <=100; i++){
-    let j = 2
-    for (; j <= i; j++){
-        if (i % j === 0) break;
-    }
-    if (i === j){
-        console.log(i);
-    }
-}
+// for (let i = 1; i <=100; i++){
+//     let j = 2
+//     for (; j <= i; j++){
+//         if (i % j === 0) break;
+//     }
+//     if (i === j){
+//         console.log(i);
+//     }
+// }
+
+// ----------------------------------------------------
+
+// for (let i = 1; i<=20; i++){
+// if (i % 3 === 0) continue;
+// console.log(i);
+// }
+
+// --------------------------------------------------
+
+// let suma = 0;
+
+// for(i=1; true; i++){
+//     let n = parseInt(prompt("napisi broj"));
+//     if (n === 0) break;
+//     else if (n < 0) continue;
+//     suma += 1/ (n*n)
+// }
+// console.log(suma);
+
+// -------------------------------------------------
+
+// let n = prompt ("napisi broj");
+// switch (n) {
+//     case "a":
+//         console.log("samograsnik");
+//         break;
+//         case "e":
+//         console.log("samograsnik");
+//         break;
+//         case "i":
+//         console.log("samograsnik");
+//         break;
+//         case "o":
+//         console.log("samograsnik");
+//         break;
+//         case "u":
+//         console.log("samograsnik");
+//         break;
+//         default:
+//             console.log("suglasnik");
+//             break;
+// }
+
+// ------------------------------------------
+
+
+// let n =parseFloat(prompt ("napisi broj"));
+// let x = parseFloat(prompt ("napisi broj"));
+// let f = prompt("napisi znak")
+
+// switch (f){
+//     case "+":
+//         console.log(n + x);
+//         break;
+//         case "-":
+//         console.log(n - x);
+//         break;
+//         case "*":
+//         console.log(n * x);
+//         break;
+//         case "/":
+//         console.log(n / x);
+//         break;
+//         default:
+//         console.log("");
+//         break;
+// }
+
+// ------------------------------------------------------
+
+// let godina= parseFloat(prompt ("godina"));
+// let mesec = parseFloat(prompt ("mesec"));
+
+
+// switch(mesec)
+//  {
+//  case 1: case 3: case 5: case 7: case 8: case 10: case 12:
+//  console.log(31);
+//  break;
+//  case 4: case 6: case 9: case 11:
+//  console.log(30);
+//  break;
+//  case 2:
+//     ((godina % 4 === 0 && godina % 100 !== 0)|| godina % 400 === 0)
+//     ? console.log(29)
+//     : console.log(28);
+//  break;
+//  default:
+//  console.log(0);
+//  break;
+// }
+
+// --------------------------------------------------------------
